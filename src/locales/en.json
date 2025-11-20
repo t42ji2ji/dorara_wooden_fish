@@ -1,0 +1,188 @@
+{
+  "app": {
+    "title": "Wooden Fish Dong Dong",
+    "description": "A simple and elegant Apple Watch app to help you de-stress. Tap the wooden fish, find your inner peace, and let the soothing sounds wash away your worries.",
+    "createdBy": "Created by",
+    "copyright": "© 2025 Wooden Fish Dong Dong",
+    "contact": {
+      "email": "Support Email",
+      "twitter": "Twitter",
+      "threads": "Threads"
+    }
+  },
+  "buttons": {
+    "exploreFeatures": "Explore Features",
+    "count": "Count: {{count}}"
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "subtitle": "Your privacy is important to us. Here's how we protect it.",
+    "backToHome": "Back to Home",
+    "noDataCollection": {
+      "title": "No Data Collection",
+      "description": "We respect your privacy completely",
+      "content": "Wooden Fish Dong Dong does not collect, store, or transmit any personal data. We do not track your activities, collect your personal information, or send any data to external servers. Your privacy is fully protected."
+    },
+    "localStorage": {
+      "title": "Local Storage Only",
+      "description": "Data stays on your device",
+      "content": "Wooden Fish Dong Dong only uses your device's local storage to save your preferences and settings. This data never leaves your device and is completely under your control. The information stored locally includes:",
+      "items": {
+        "theme": "Theme preferences (light/dark mode)",
+        "language": "Language settings",
+        "preferences": "Application preferences and settings"
+      }
+    },
+    "noThirdParty": {
+      "title": "No Third-Party Tracking",
+      "description": "No external services or analytics",
+      "content": "We do not use any third-party tracking services, analytics tools, or external APIs that could compromise your privacy. Wooden Fish Dong Dong operates entirely within your device without any external connections."
+    },
+    "security": {
+      "title": "Security",
+      "description": "Your data is safe and secure",
+      "content": "Since we don't collect or store any data on our servers, there's no risk of data breaches or unauthorized access to your information. All your data remains securely on your own device."
+    },
+    "contact": {
+      "title": "Contact Us",
+      "description": "Questions about our privacy policy?",
+      "content": "If you have any questions about this privacy policy or how we handle your information, please don't hesitate to contact us.",
+      "email": "Contact via Email"
+    },
+    "lastUpdated": "Last updated: January 2025"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "questions": {
+      "q1": {
+        "question": "What is Wooden Fish Dong Dong?",
+        "answer": "Wooden Fish Dong Dong is a stress-relief app designed for Apple Watch. It simulates the sound and feeling of tapping a traditional wooden fish, helping you focus and relax."
+      },
+      "q2": {
+        "question": "How does it help with stress?",
+        "answer": "The rhythmic tapping and soothing sound of the wooden fish can help induce a meditative state, lowering heart rate and reducing anxiety. It's a simple mindfulness practice you can do anywhere."
+      },
+      "q3": {
+        "question": "Is it free to use?",
+        "answer": "Yes, the core features of Wooden Fish Dong Dong are free. We believe that everyone deserves a moment of peace in their busy lives."
+      },
+      "q4": {
+        "question": "Does it track my health data?",
+        "answer": "We prioritize your privacy. While the app may integrate with HealthKit to log mindfulness minutes (if you choose to enable it), we do not collect or store any personal health data on our servers."
+      }
+    }
+  },
+  "contactForm": {
+    "title": "Have More Questions?",
+    "subtitle": "We'd love to hear from you!",
+    "name": "Your Name",
+    "namePlaceholder": "Enter your name",
+    "email": "Your Email",
+    "emailPlaceholder": "Enter your email",
+    "subject": "Subject",
+    "subjectPlaceholder": "What's this about?",
+    "message": "Message",
+    "messagePlaceholder": "Tell us more about your question or feedback...",
+    "sendButton": "Send Message",
+    "sending": "Sending..."
+  },
+  "features": {
+    "title": "Features",
+    "backToHome": "Back to Home",
+    "powerfulFeatures": "Powerful Features",
+    "vercel": {
+      "title": "Vercel Deployment",
+      "description": "One-click deployment to Vercel. Just run a simple command in your terminal to deploy your app to production.",
+      "deploymentSteps": "Deployment Steps",
+      "installVercel": "1. Install Vercel CLI globally",
+      "deployCommand": "2. Deploy to Vercel",
+      "visitSite": "3. Visit your site",
+      "tryCommand": "Try the command",
+      "deploySuccess": "Deployment successful!",
+      "openInBrowser": "Open in browser"
+    },
+    "themeProvider": {
+      "title": "Theme Provider",
+      "description": "Built-in dark mode toggle with system preference detection and localStorage persistence. Based on shadcn's theme implementation using Tailwind's dark mode class strategy."
+    },
+    "tailwind": {
+      "title": "Tailwind CSS",
+      "description": "Utility-first CSS framework for rapid UI development. Create beautiful designs without leaving your HTML."
+    },
+    "framerMotion": {
+      "title": "Framer Motion",
+      "description": "Production-ready animation library for React. Create fluid animations with minimal code."
+    },
+    "shadcn": {
+      "title": "Shadcn/UI",
+      "description": "Beautifully designed components built with Radix UI and Tailwind CSS. Re-usable components that you can copy and paste into your apps."
+    },
+    "reactRouter": {
+      "title": "React Router",
+      "description": "Client-side routing for React applications. Navigate between views without full page reloads."
+    },
+    "lucide": {
+      "title": "Lucide React",
+      "description": "Beautiful & consistent icon toolkit for React applications. Over 1000 icons available."
+    },
+    "themeOptions": "Theme Options",
+    "currentTheme": "Current theme:",
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System",
+    "toggleTheme": "Toggle theme",
+    "simpleAndPowerful": "Simple & Powerful",
+    "animatedBox": "Animated Box",
+    "startAnimation": "Start Animation",
+    "stopAnimation": "Stop Animation",
+    "customCursor": {
+      "title": "Custom Cursor",
+      "description": "An interactive custom cursor that replaces the default mouse cursor with animated elements that respond to user interactions.",
+      "enable": "Enable Custom Cursor",
+      "cursorColor": "Cursor Color",
+      "lightModeColor": "Light Mode Color",
+      "hoverText": "Hover over elements to see different states",
+      "clickable": "Clickable",
+      "button": "Button"
+    },
+    "on": "On",
+    "off": "Off",
+    "i18next": {
+      "title": "i18next",
+      "description": "Powerful internationalization framework with support for multiple languages, plurals, context, and more.",
+      "languageOptions": "Language Options",
+      "currentLanguage": "Current Language",
+      "selected": "Selected",
+      "english": "English",
+      "chinese": "中文",
+      "example": "Translation Example",
+      "sampleText": "This is a sample text to demonstrate language switching."
+    },
+    "toast": {
+      "title": "React Hot Toast",
+      "description": "Lightweight, customizable toast notifications for React applications. Perfect for showing success, error, or information messages.",
+      "tryToast": "Try Toast Notifications",
+      "success": "Success Toast",
+      "error": "Error Toast",
+      "info": "Info Toast",
+      "warning": "Warning Toast",
+      "promise": "Promise Toast",
+      "loading": "Loading...",
+      "successMessage": "Operation completed successfully!",
+      "errorMessage": "Something went wrong!",
+      "infoMessage": "Here's some information for you.",
+      "warningMessage": "This is a warning message.",
+      "promiseMessage": "Processing your request...",
+      "positions": {
+        "title": "Toast Positions",
+        "description": "Try different toast positions",
+        "topLeft": "Top Left",
+        "topCenter": "Top Center",
+        "topRight": "Top Right",
+        "bottomLeft": "Bottom Left",
+        "bottomCenter": "Bottom Center",
+        "bottomRight": "Bottom Right"
+      }
+    }
+  }
+}
