@@ -1,6 +1,6 @@
 import ContactForm from '@/components/ContactForm';
 import FAQ from '@/components/FAQ';
-import { useTheme } from '@/components/ThemeProvider';
+import RippleBackground from '@/components/RippleBackground';
 import { Button } from '@/components/ui/button';
 import { motion } from 'framer-motion';
 import { Mail, Twitter } from 'lucide-react';
@@ -11,11 +11,13 @@ const Home = () => {
   const { t } = useTranslation();
 
   const titleChars = t('app.title').split('');
-  const { theme } = useTheme();
 
   return (
     <div className="bg-background">
       {/* Hero Section - Full Height */}
+      <div className='w-20 h-20 bg-black opacity-50'>
+        <RippleBackground />
+      </div>
       <div className="min-h-screen flex flex-col items-center justify-center p-4">
         <motion.div
           initial={{ opacity: 0, y: -50 }}
