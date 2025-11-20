@@ -9,9 +9,9 @@ import LanguageToggle from "./components/LanguageToggle"
 import { ThemeToggle } from "./components/ThemeToggle"
 
 function App() {
-    const [showCustomCursor, setShowCustomCursor] = useState(true)
-    const [cursorColor, setCursorColor] = useState('#000000')
-    const [cursorLightColor, setCursorLightColor] = useState('#ffffff')
+    const [showCustomCursor,] = useState(true)
+    const [cursorColor,] = useState('#000000')
+    const [cursorLightColor,] = useState('#ffffff')
 
     return (
         <ThemeProvider defaultTheme="system" storageKey="vibe-ui-theme">
