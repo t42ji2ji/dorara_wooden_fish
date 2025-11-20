@@ -1,6 +1,5 @@
 import CustomCursor from "@/components/CustomCursor"
 import { ThemeProvider } from "@/components/ThemeProvider"
-import Features from "@/pages/Features"
 import Home from "@/pages/Home"
 import PrivacyPolicy from "@/pages/PrivacyPolicy"
 import { useState } from "react"
@@ -34,19 +33,7 @@ function App() {
 
                 <Routes>
                     <Route path="/" element={<Home />} />
-                    <Route
-                        path="/features"
-                        element={
-                            <Features
-                                showCustomCursor={showCustomCursor}
-                                setShowCustomCursor={setShowCustomCursor}
-                                cursorColor={cursorColor}
-                                setCursorColor={setCursorColor}
-                                cursorLightColor={cursorLightColor}
-                                setCursorLightColor={setCursorLightColor}
-                            />
-                        }
-                    />
+
                     <Route path="/privacy" element={<PrivacyPolicy />} />
                 </Routes>
             </BrowserRouter>

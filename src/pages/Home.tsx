@@ -5,7 +5,6 @@ import { Button } from '@/components/ui/button';
 import { motion } from 'framer-motion';
 import { Mail, Twitter } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
-import { AppStoreButton } from 'react-mobile-app-button';
 import { Link } from 'react-router-dom';
 
 const Home = () => {
@@ -69,13 +68,13 @@ const Home = () => {
               dorara_hsieh
             </a>
           </p>
-          {/* App Store Download Button */}
+          {/* App Store Download Button
           <div className="flex justify-center mb-8">
             <AppStoreButton
               theme={theme === 'dark' ? 'dark' : 'light'}
               url="https://apps.apple.com/tw/app/cardma/id6747955972?l=en-GB"
             />
-          </div>
+          </div> */}
           <div className="flex flex-wrap justify-center gap-4">
             <Button variant="outline" size="lg" asChild>
               <a
